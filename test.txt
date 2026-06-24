@@ -1,0 +1,1 @@
+"Artificial Intelligence and RAG pipelines are cool. This is a local testing document chunk." | Out-File -FilePath C:\Projects\rag-chatbot\test.txt -Encoding utf8
