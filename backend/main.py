@@ -20,7 +20,7 @@ app.add_middleware(
 # --- CONFIGURATIONS ---
 EMBEDDER_URL = "http://127.0.0.1:8001/embed"
 LOCAL_DB_FILE = "campus_knowledge_base.json"
-GROQ_API_KEY = "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"  # Substitute your Groq key here
+GROQ_API_KEY = ""  # Substitute your Groq key here
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 http_client = httpx.AsyncClient()
